@@ -8,7 +8,7 @@ providers:
   disabled:
     - anthropic
 
-  default: openai
+  default: groq
 
 # Model Selection
 model:
