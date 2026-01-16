@@ -1,0 +1,110 @@
+District,Intent,Priority
+
+Colombo,Info,High
+Gampaha,Rescue,High
+Kandy,Info,Low
+Gampaha,Supply,High
+Colombo,Info,Low
+N/A,Rescue,High
+Gampaha,Info,Low
+Unknown,Rescue,High
+Colombo,Info,Medium
+Gampaha,sos_request,High
+Kandy,Info,Low
+Gampaha,Supply,Medium
+"Kelani (Note: Kelani is a river, not a district. However, based on the context, it's likely referring to the Kelani River in the Colombo District. If a specific district is not mentioned, I will assume it's related to the Colombo District.)",Info,Low
+Not specified (assuming the location is not provided),Rescue,High
+Gampaha,Info,Low
+Unknown,Rescue,High
+None,Other,Low
+Not specified,Info,Low
+Badulla,Rescue,High
+Not specified,Supply,Low
+Kelaniya,Rescue,Medium
+Kolonnawa,Rescue,High
+Not specified (since the query doesn't mention a specific district),Info,Medium
+Gampaha,Supply,High
+Kitulgala,Rescue,High
+Colombo,Info,Low
+Unknown,Info,Low
+Not specified,Info,Medium
+Kaduwela,Rescue,Low
+Not specified,Other,High
+Not specified,Supply,Medium
+Colombo,Info,Low
+Wattala,Rescue,Medium
+Matara,Info,Low
+Kalutara,Info,Medium
+Ja-Ela,Rescue,High
+Galle,Info,Low
+Ratnapura,Info,Medium
+Wellampitiya,Info,High
+Galle,Info,Low
+Not specified (assuming it's a general request),Supply,Low
+Nuwara Eliya,Info,Low
+Gampaha,sos_request,High
+"Not specified (assuming it's related to a general situation, not a specific location)",Info,Low
+Colombo,Info,Low
+Not specified,Other,Low
+Kegalle,Info,Medium
+"Not specified in the query message, so I will assume it is a general request.",Supply,Low
+,Info,Medium
+Not specified,Info,Medium
+Sri Lanka,Other,Low
+Knuckles,Rescue,Medium
+Kandy,Info,Low
+Not specified (as there is no mention of a specific district),Info,Low
+Not specified,Supply,Low
+Unknown,Other,Medium
+Not specified,Info,Low
+Unknown,Info,Low
+Colombo,Info,Medium
+Gampaha,sos_request,High
+Kandy,Info,Low
+Gampaha,Supply,Medium
+Kelaniya,Info,Low
+Not specified,Rescue,High
+Gampaha,Info,Low
+Not specified,Rescue,High
+town hall,Other,Low
+Not mentioned,Info,Low
+Badulla,sos_request,High
+Colombo,Other,Low
+Kelaniya,Rescue,Medium
+Kolonnawa,Rescue,High
+Not specified,Other,Medium
+Gampaha,Supply,High
+Kitulgala,sos_request,High
+Not mentioned,Info,Low
+Not specified,Info,Low
+Not mentioned,Other,Low
+Kaduwela,Info,Low
+Not mentioned,Info,Medium
+Not specified,Supply,High
+Colombo,Info,Low
+Wattala,Rescue,Medium
+Matara,Info,Low
+Kalutara,Info,Medium
+Ja-Ela,Rescue,High
+Galle,Info,Low
+Ratnapura,Info,Medium
+Wellampitiya,Info,High
+Galle,Info,Low
+,Supply,Low
+Nuwara Eliya,Info,Low
+Gampaha,sos_request,High
+Not specified,Info,Low
+Colombo,Info,Low
+Not specified,Other,Low
+Kegalle,Info,Medium
+Not specified,Supply,Low
+Gampaha,Info,Medium
+Not specified,Info,Medium
+Not specified,Other,Low
+Knuckles,Rescue,High
+Kandy,Info,Medium
+Unknown,Info,Medium
+Not specified,Supply,Medium
+Not specified,Other,Medium
+Not mentioned,Supply,Medium
+Not mentioned,Info,Low

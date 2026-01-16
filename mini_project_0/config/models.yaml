@@ -8,7 +8,7 @@ google:
 groq:
   general: llama-3.1-8b-instant
   strong: llama-3.1-70b-versatile
-  reason: deepseek-r1-distill-llama-70b
+  reason: meta-llama/llama-4-scout-17b-16e-instruct
 
 # OpenAI model
 openai:

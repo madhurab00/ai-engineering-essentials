@@ -1,0 +1,127 @@
+# API Providers
+providers:
+  enabled:
+    - openai
+    - google
+    - groq
+
+  disabled:
+    - anthropic
+
+  default: groq
+
+# Model Selection
+model:
+  auto_routing: True
+
+  reasoning_techniques:
+    - cot
+    - tot
+    - cot_reasoning
+    - tot_reasoning
+    - chain_of_thoughts
+    - tree_of_thoughts
+
+# Default LLM Parameters
+defaults:
+  temperature: 0.2
+  max_tokens: 1000
+  top_p: 1.0
+
+  by_task:
+    extraction:
+      temperature: 0.0
+      max_tokens: 500
+
+    classification:
+      temperature: 0.0
+      max_tokens: 50
+
+    generation:
+      temperature: 0.7
+      max_tokens: 1500
+
+    reasoning:
+      temperature: 0.3
+      max_tokens: 2000
+
+    creative:
+      temperature: 1.0
+      max_tokens: 2000
+
+# Token Management
+tokens:
+  estimation:
+    enabled: True
+    provider: tiktoken
+    warn_threshold_percent: 15
+
+  context_management:
+    hard_prompt_cap: null
+    overflow_strategy: truncate
+    reserve_output_tokens: 1000
+
+  message_overhead_tokens: 4
+
+# Logging
+logging:
+  enabled: True
+  output_dir: logs
+  output_file: runs.csv
+
+  log_tokens: true
+  log_latency: true
+  log_retries: true
+  log_cost_estimates: true
+
+  cost_estimation:
+    enabled: true
+    disclaimer: "Prices change frequently. Check provider pricing pages for accurate costs."
+
+  console_verbosity: info
+
+# Safety and Validation
+safety:
+  prompt_injection_detection: true
+  pii detection: false
+
+  sanitize_inputs: true
+  max_input_length: 100000
+
+# JSON and Structured Outputs
+structured_outputs:
+  auto_repair: true
+  validate_schema: true
+  max_repair_attempts: 2
+
+# Notebooks defaults
+notebooks:
+  auto_reload: false
+
+  test_params:
+    hello_world:
+      max_tokens: 20
+      temperature: 0.0
+
+    temperature_sweep:
+      values: [0.0, 0.5, 1.0, 1.5]
+      max_tokens: 50
+
+    max_tokens_sweep:
+      values: [10, 30, 100]
+      temperature: 0.7
+
+# Development Settings
+development:
+  cache_responses: false
+  dry_run: false
+  debug: false
+
+# Feature Flags
+features:
+  experimental: false
+
+  langchain_integration: true
+  llamaindex_integration: true
+  tool_calling: true
+  function_calling: true
